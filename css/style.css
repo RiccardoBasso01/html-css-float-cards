@@ -7,3 +7,58 @@
 body{
     font-family: Fredoka,'comic sans', cursive;
 }
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: #e53170;
+    margin: 50px 0;
+}
+
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.line{
+    margin: 5px 0 5px 0;
+}
+
+.card::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    color: white;
+    background-color: black;
+    float: left;
+}
+
+.card img{
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+}
+
+address a{
+    text-decoration: none;
+    color: #5db8dd;
+}
+
+address{
+    font-style: normal;
+    padding-top: 5px;
+}
